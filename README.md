@@ -16,12 +16,12 @@ $ git clone https://github.com/tanmaythakur/ckanext-google-tag-manager.git
 
 ##### 2. Install the plugin
 
-```
-    # Activate virtual env 
-    $ . /usr/lib/ckan/default/bin/activate
-    $ cd ckanext-google-tag-manager
-    $ pip install -r requirements.txt
-    $ python setup.py develop
+```sh
+# Activate virtual env 
+$ . /usr/lib/ckan/default/bin/activate
+$ cd ckanext-google-tag-manager
+$ pip install -r requirements.txt
+$ python setup.py develop
 ```
 
 ##### 3. Make config changes
