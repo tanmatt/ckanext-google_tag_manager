@@ -9,20 +9,20 @@ This gives you a container-ID specific to the account.
 ### Installation
 ##### 1. Get the code
     
-    ```sh 
-    $ cd /usr/lib/ckan/default/src
-    $ git clone https://github.com/tanmaythakur/ckanext-google-tag-manager.git
-    ```
+```sh 
+$ cd /usr/lib/ckan/default/src
+$ git clone https://github.com/tanmaythakur/ckanext-google-tag-manager.git
+```
 
 ##### 2. Install the plugin
-    
-    ```sh
+
+```
     # Activate virtual env 
     $ . /usr/lib/ckan/default/bin/activate
     $ cd ckanext-google-tag-manager
     $ pip install -r requirements.txt
     $ python setup.py develop
-    ```
+```
 
 ##### 3. Make config changes
 
