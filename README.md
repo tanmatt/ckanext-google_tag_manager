@@ -28,6 +28,9 @@ $ python setup.py develop
 
 - Open your development.ini file (/etc/ckan/default/development.ini).
 - Add `ckan.google_tag_manager.gtm_container_id = {YOUR_CONTAINER_ID}` anywhere in the `[app:main]` section.
+- Add the extension to the plugins list:
+    ` ckan.plugins = google_tag_manager`
+
 
 ##### 4. Restart ckan
 
